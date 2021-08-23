@@ -1,12 +1,13 @@
 import { GlobalStyle } from './globalStyles'
-import { ProfileCardComponentPage, OrderSummaryComponentPage } from './pages'
+import { ProfileCardComponentPage, OrderSummaryComponentPage, StatsPreviewCardPage } from './pages'
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
       {/* <ProfileCardComponentPage /> */}
-      <OrderSummaryComponentPage />
+      {/* <OrderSummaryComponentPage /> */}
+      <StatsPreviewCardPage />
     </div>
   );
 }

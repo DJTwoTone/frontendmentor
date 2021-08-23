@@ -36,7 +36,7 @@ export const TopImage = styled.img`
 `;
 
 export const SummaryTitle = styled.h2`
-    font-size: 2 rem;
+    font-size: 2rem;
     font-weight: 900;
 `;
 
