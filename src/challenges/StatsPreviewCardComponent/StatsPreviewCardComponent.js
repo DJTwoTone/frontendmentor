@@ -1,16 +1,21 @@
 import React from 'react'
-import { Background, Card, Header, BodyWrapper, CardTitle, Accent, CardText, Footer } from './elements';
+import { Background, Card, Header, HeaderImg, HeaderOverlay, BodyWrapper, CardTitle, Accent, CardText, Footer } from './elements';
 import FooterItem from './subcomponents/FooterItem';
+import mobileImg from './assets/image-header-mobile.jpg';
+
 
 function StatsPreviewCardComponent() {
     return (
         <div>
             <Background>
                 <Card>
-                    <Header />
+                    <Header>
+                        <HeaderImg src={mobileImg} />
+                        <HeaderOverlay></HeaderOverlay>
+                    </Header>
                     <BodyWrapper>
                         <CardTitle>
-                            Get <Accent>insights</Accent> the help your business grow.
+                            Get <Accent>insights</Accent> that help your business grow.
                         </CardTitle>
                         <CardText>
                             Discover the benefits od data amalytics and make better decisions regarding revenue, customer experience, and overall efficiency. 
