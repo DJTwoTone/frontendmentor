@@ -1,5 +1,5 @@
 import { GlobalStyle } from './globalStyles'
-import { ProfileCardComponentPage, OrderSummaryComponentPage, StatsPreviewCardPage, ThreeColumnPreviewCardComponentPage } from './pages'
+import { ProfileCardComponentPage, OrderSummaryComponentPage, StatsPreviewCardPage, ThreeColumnPreviewCardComponentPage, FAQAccordionCardPage } from './pages'
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       {/* <ProfileCardComponentPage /> */}
       {/* <OrderSummaryComponentPage /> */}
       {/* <StatsPreviewCardPage /> */}
-      <ThreeColumnPreviewCardComponentPage />
+      {/* <ThreeColumnPreviewCardComponentPage /> */}
+      <FAQAccordionCardPage />
     </div>
   );
 }

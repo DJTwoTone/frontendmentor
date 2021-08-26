@@ -2,3 +2,4 @@ export { default as ProfileCardComponent } from './ProfileCardComponent/ProfileC
 export { default as OrderSummaryComponent} from './OrderSummaryComponent/OrderSummaryComponent';
 export { default as StatsPreviewCardComponent } from './StatsPreviewCardComponent/StatsPreviewCardComponent';
 export { default as ThreeColumnPreviewCardComponent } from './ThreeColumnPreviewCardComponent/ThreeColumnPreviewCardComponent';
+export { default as FAQAccordionCard } from './FAQAccordionCard/FAQAccordionCard'
