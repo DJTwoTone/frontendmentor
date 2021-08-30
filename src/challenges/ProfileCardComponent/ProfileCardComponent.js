@@ -15,8 +15,8 @@ function ProfileCardComponent() {
         <>
 
             <BackgroundWrapper>
-                <TopCircle src={top} />;
-                <BottomCircle src={bottom} />
+                {/* <TopCircle src={top} />;
+                <BottomCircle src={bottom} /> */}
                 <CardWrapper>
                     <Card>
                         <CardTop />

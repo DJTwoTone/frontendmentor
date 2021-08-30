@@ -1,10 +1,14 @@
 import React from 'react'
+import { SocialProofSection } from '../../challenges';
+import { ChallengeContainer } from '../../globalComponents/globalComponents.elements';
 
 function SocialProofSectionPage() {
     return (
-        <div>
-            
-        </div>
+        <>
+            <ChallengeContainer>
+                <SocialProofSection />  
+            </ChallengeContainer>   
+        </>
     )
 }
 

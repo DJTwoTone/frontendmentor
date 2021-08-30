@@ -1,15 +1,22 @@
 import styled from "styled-components";
 import topBg from './assets/bg-pattern-card.svg';
+import top from './assets/bg-pattern-top.svg';
+import bottom from './assets/bg-pattern-bottom.svg';
 
 
 export const BackgroundWrapper = styled.div`
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: max(100%, 375px);
 
     @media screen and (min-width: 768px) {
         width: max(100%, 1440px);
     }
-    background: hsl(185, 75%, 39%);
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(${top}), url(${bottom});
+    background-position: top -50vh left -20vh, bottom -60vh right -20vh;
+    background-repeat: no-repeat;
     overflow: hidden;
     height: 100vh;
 `;

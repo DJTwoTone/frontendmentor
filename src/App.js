@@ -1,15 +1,16 @@
 import { GlobalStyle } from './globalStyles'
-import { ProfileCardComponentPage, OrderSummaryComponentPage, StatsPreviewCardPage, ThreeColumnPreviewCardComponentPage, FAQAccordionCardPage } from './pages'
+import { ProfileCardComponentPage, OrderSummaryComponentPage, StatsPreviewCardPage, ThreeColumnPreviewCardComponentPage, FAQAccordionCardPage, SocialProofSectionPage } from './pages'
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
-      {/* <ProfileCardComponentPage /> */}
+      <ProfileCardComponentPage />
       {/* <OrderSummaryComponentPage /> */}
       {/* <StatsPreviewCardPage /> */}
       {/* <ThreeColumnPreviewCardComponentPage /> */}
-      <FAQAccordionCardPage />
+      {/* <FAQAccordionCardPage /> */}
+      {/* <SocialProofSectionPage /> */}
     </div>
   );
 }
