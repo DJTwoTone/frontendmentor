@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
-      <ProfileCardComponentPage />
-      {/* <OrderSummaryComponentPage /> */}
+      {/* <ProfileCardComponentPage /> */}
+      <OrderSummaryComponentPage />
       {/* <StatsPreviewCardPage /> */}
       {/* <ThreeColumnPreviewCardComponentPage /> */}
       {/* <FAQAccordionCardPage /> */}
