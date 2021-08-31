@@ -8,17 +8,18 @@ export const BackgroundWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10rem 0 10rem 0;
     width: max(100%, 375px);
-
+    background-image: url(${top}), url(${bottom});
+    background-position: top -50vh left -170vw, bottom -50vh right -170vw;
     @media screen and (min-width: 768px) {
         width: max(100%, 1440px);
+        background-position:  top 250% left -60%, bottom 350% right -60%;
     }
     background-color: hsl(185, 75%, 39%);
-    background-image: url(${top}), url(${bottom});
-    background-position: top -50vh left -20vh, bottom -60vh right -20vh;
     background-repeat: no-repeat;
     overflow: hidden;
-    height: 100vh;
+
 `;
 
 export const TopCircle = styled.img`
@@ -42,17 +43,23 @@ export const CardWrapper = styled.div`
     justify-content: center;
     align-items: center;
     /* margin-top: 10rem; */
+    font-family: 'Kumbh Sans', sans-serif;
 `;
 
 export const Card = styled.div`
     position: relative;
+    width: 90vw;
     height: 30rem;
-    width: 25rem;
+
+    @media screen and (min-width: 768px) {
+        width: 30rem;
+    }
+
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 2px 2px black;
+    box-shadow: 5px 5px 5px hsl(229, 23%, 23%);
     background: white;
     `;
 
@@ -89,16 +96,19 @@ export const NameAgeWrapper = styled.span`
 
 export const Name = styled.p`
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 `;
 
 export const Age = styled.p`
     margin-left: .5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 59%)
 `;
 
 export const Location = styled.p`
     margin-top: 1rem;
+    color: hsl(0, 0%, 59%)
+
 `;
 
 

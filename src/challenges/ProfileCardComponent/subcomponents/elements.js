@@ -9,10 +9,11 @@ export const ItemWrapper = styled.div`
 
 export const Number = styled.p`
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.7rem;
 `;
 
 export const Category = styled.p`
-
+    font-size: 1rem;
+    color: hsl(0, 0%, 59%);
 `;
 
