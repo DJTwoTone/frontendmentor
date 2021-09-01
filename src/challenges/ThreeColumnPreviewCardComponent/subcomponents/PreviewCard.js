@@ -8,7 +8,7 @@ function PreviewCard({ icon, title, text, color}) {
                 <CardIcon src={icon} />
                 <CardTitle>{title}</CardTitle>
                 <CardText>{text}</CardText>
-                <CardBtn>Learn More</CardBtn>
+                <CardBtn color={color}>Learn More</CardBtn>
             </Card>
             
         </>

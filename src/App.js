@@ -7,8 +7,8 @@ function App() {
       <GlobalStyle />
       {/* <ProfileCardComponentPage /> */}
       {/* <OrderSummaryComponentPage /> */}
-      <StatsPreviewCardPage />
-      {/* <ThreeColumnPreviewCardComponentPage /> */}
+      {/* <StatsPreviewCardPage /> */}
+      <ThreeColumnPreviewCardComponentPage />
       {/* <FAQAccordionCardPage /> */}
       {/* <SocialProofSectionPage /> */}
     </div>
