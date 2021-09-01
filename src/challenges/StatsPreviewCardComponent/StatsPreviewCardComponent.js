@@ -18,7 +18,7 @@ function StatsPreviewCardComponent() {
                             Get <Accent>insights</Accent> that help your business grow.
                         </CardTitle>
                         <CardText>
-                            Discover the benefits od data amalytics and make better decisions regarding revenue, customer experience, and overall efficiency. 
+                            Discover the benefits of data amalytics and make better decisions regarding revenue, customer experience, and overall efficiency. 
                         </CardText>
                         <Footer>
                             <FooterItem num={"10k+"} category={"COMPANIES"} />

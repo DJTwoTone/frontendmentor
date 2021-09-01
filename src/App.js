@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <GlobalStyle />
       {/* <ProfileCardComponentPage /> */}
-      <OrderSummaryComponentPage />
-      {/* <StatsPreviewCardPage /> */}
+      {/* <OrderSummaryComponentPage /> */}
+      <StatsPreviewCardPage />
       {/* <ThreeColumnPreviewCardComponentPage /> */}
       {/* <FAQAccordionCardPage /> */}
       {/* <SocialProofSectionPage /> */}

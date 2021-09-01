@@ -20,6 +20,7 @@ export const Number = styled.p`
     `;
 
 export const Category = styled.p`
-color: hsla(0, 0%, 100%, 0.6);
+    color: hsla(0, 0%, 100%, 0.6);
     margin-top: .5rem;
+    font-family: 'Lexend Deca', sans-serif;
 `;

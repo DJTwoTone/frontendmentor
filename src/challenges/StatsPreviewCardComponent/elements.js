@@ -21,16 +21,23 @@ export const Card = styled.div`
     @media only screen and (min-width: 426px) {
         flex-direction: row-reverse;
     }
+    font-family: 'Inter', sans-serif;
 `;
 
 export const Header = styled.div`
     position: relative;
     width: 100%;
+
+    @media only screen and (min-width: 426px) {
+        overflow: hidden;
+        border-radius: 0 20px 20px 0;
+
+    }
 `;
 
 export const HeaderImg = styled.img`
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     object-fit: contain;
     border-radius: 20px 20px 0 0;
 
@@ -46,6 +53,7 @@ export const HeaderOverlay = styled.div`
     width: 100%;
     height: 100%;
     background: hsla(277, 64%, 61%, .50);
+    border-radius: 20px 20px 0 0;
     
     
     @media only screen and (min-width: 426px) {
@@ -66,13 +74,14 @@ export const BodyWrapper = styled.div`
 
 export const CardTitle = styled.h3`
     margin: 2rem 2rem 2rem 1rem;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     color: hsl(0, 0%, 100%);
     text-align: center;
 
     @media only screen and (min-width: 426px) {
         text-align: left;
-        margin: 0 0 2rem 0;
+        margin: 5rem 0 2rem 0;
+        font-size: 3.5rem;
 
     }
 `;
@@ -83,15 +92,17 @@ export const Accent = styled.span`
 
 export const CardText = styled.p`
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     margin: 0 2rem 2rem 2rem;
+    font-family: 'Lexend Deca', sans-serif;
 
     @media only screen and (min-width: 426px) {
         text-align: left;
         margin: 0 4rem 3rem 0;
         line-height: 2rem;
+        font-size: 1.7rem;
     }
 `;
 
@@ -99,10 +110,14 @@ export const Footer = styled.div`
     display: flex;
     flex-direction: column;
 
+
     @media only screen and (min-width: 426px) {
         flex-direction: row;
         justify-content: space-between;
+        width: 70%;
         margin-right: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     
     }
 `;
