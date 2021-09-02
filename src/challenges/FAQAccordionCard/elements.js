@@ -18,7 +18,7 @@ export const Card = styled.div`
     width: 90%;
     background: white;
     border-radius: 35px;
-
+    font-family: 'Kumbh Sans', sans-serif;
 `;
 
 export const CardImg = styled.div`
@@ -31,7 +31,7 @@ export const Illustration = styled.div`
     position: absolute;
     background: url(${mobileIllustration}) no-repeat top center;
     /* background-size: 100% auto; */
-    width: 100%;
+    width: 90%;
     height: 100%;
     top: -110px;
 `;
@@ -57,20 +57,5 @@ export const CardTitle = styled.h1`
 export const QandAArea = styled.div`
 
 `;
-export const QandA = styled.div`
 
-`;
-
-export const Question = styled.p`
-
-`;
-
-export const Answer = styled.p`
-
-`;
-
-export const ArrowIcon = styled.img`
-
-
-`;
 

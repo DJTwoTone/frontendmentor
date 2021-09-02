@@ -8,8 +8,8 @@ function App() {
       {/* <ProfileCardComponentPage /> */}
       {/* <OrderSummaryComponentPage /> */}
       {/* <StatsPreviewCardPage /> */}
-      <ThreeColumnPreviewCardComponentPage />
-      {/* <FAQAccordionCardPage /> */}
+      {/* <ThreeColumnPreviewCardComponentPage /> */}
+      <FAQAccordionCardPage />
       {/* <SocialProofSectionPage /> */}
     </div>
   );

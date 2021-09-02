@@ -1,7 +1,15 @@
-import React from 'react';
-import { Background, Card, CardImg, Illustration, Shadow, Box, CardTitle, QandAArea, QandA, Question, Answer, ArrowIcon } from './elements';
+import React, { useState } from 'react';
+import { Background, Card, CardImg, Illustration, Shadow, Box, CardTitle, QandAArea } from './elements';
+import QAndA from './subcomponents/QAndA';
+import { faq } from './assets/faq'
 
 function FAQAccordionCard() {
+
+    const [faqs, setFaqs] = useState(faq)
+
+
+ 
+
     return (
         <>
             <Background>
@@ -13,15 +21,10 @@ function FAQAccordionCard() {
                     </CardImg>
                     <CardTitle>FAQ</CardTitle>
                     <QandAArea>
-                        <QandA>
-                            <Question>
-                            How many team members can I invite?
-                            </Question>
-                            <ArrowIcon></ArrowIcon>
-                            <Answer>
-                            You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
-                            </Answer>
-                        </QandA>
+                        {faqs.map(({question, answer}, idx) => (
+                            <QAndA key={idx} question={question} answer={answer} />
+                        )) 
+                        }
                     </QandAArea>
                 </Card>
             </Background>
