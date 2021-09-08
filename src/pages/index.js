@@ -4,5 +4,6 @@ export { default as StatsPreviewCardPage } from './StatsPreviewCardComponentPage
 export { default as ThreeColumnPreviewCardComponentPage } from './ThreeColumnPreviewCardComponentPage/ThreeColumnPreviewCardComponentPage';
 export { default as FAQAccordionCardPage } from './FAQAccordionCardPage/FAQAccordionCardPage';
 export { default as SocialProofSectionPage } from './SocialProofSectionPage/SocialProofSectionPage';
+export { default as ArticlePreviewComponentPage } from './ArticlePreviewComponentPage/ArticlePreviewComponentPage';
 
 

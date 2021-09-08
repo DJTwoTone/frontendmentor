@@ -1,5 +1,5 @@
 import { GlobalStyle } from './globalStyles'
-import { ProfileCardComponentPage, OrderSummaryComponentPage, StatsPreviewCardPage, ThreeColumnPreviewCardComponentPage, FAQAccordionCardPage, SocialProofSectionPage } from './pages'
+import { ProfileCardComponentPage, OrderSummaryComponentPage, StatsPreviewCardPage, ThreeColumnPreviewCardComponentPage, FAQAccordionCardPage, SocialProofSectionPage, ArticlePreviewComponentPage } from './pages'
 
 function App() {
   return (
@@ -9,8 +9,10 @@ function App() {
       {/* <OrderSummaryComponentPage /> */}
       {/* <StatsPreviewCardPage /> */}
       {/* <ThreeColumnPreviewCardComponentPage /> */}
-      <FAQAccordionCardPage />
+      {/* <FAQAccordionCardPage /> */}
       {/* <SocialProofSectionPage /> */}
+      <ArticlePreviewComponentPage />
+      
     </div>
   );
 }

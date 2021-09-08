@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ImageArea = styled.div`
+    /* position: absolute; */
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -10,7 +11,7 @@ export const ImageArea = styled.div`
 `;
 
 export const StarterImg = styled.img`
-    height: 15rem;
+    height: 12rem;
     width: auto;
     margin: 1rem;
 
